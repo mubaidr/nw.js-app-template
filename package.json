@@ -1,13 +1,16 @@
 {
   "name": "nw-app",
   "version": "1.0.0",
-  "description": "A quick starter template for NW.js application development.",
+  "description": "A quick starter template for NW.js application development",
+  "keywords": ["NW.js", "js", "node"],
+  "homepage": "https://github.com/mubaidr/nw.js-app-template",
   "main": "index.html",
   "scripts": {
     "start": "nw",
+    "dev": "nw --remote-debugging-port=9222",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "mubaidr@gmail.com",
   "window": {
     "toolbar": false,
     "width": 800,
@@ -25,5 +28,12 @@
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/mubaidr/nw.js-app-template/issues",
+    "email": "mubaidr@github.com"
+  },
+  "engines": {
+    "npm": "^3.10.8"
   }
 }
