@@ -2,9 +2,13 @@
   "name": "nw-app",
   "version": "1.0.0",
   "description": "A quick starter template for NW.js application development",
-  "keywords": ["NW.js", "js", "node"],
+  "keywords": [
+    "NW.js",
+    "js",
+    "node"
+  ],
   "homepage": "https://github.com/mubaidr/nw.js-app-template",
-  "main": "index.html",
+  "main": "src/index.html",
   "scripts": {
     "start": "nw",
     "dev": "nw --remote-debugging-port=9222",
@@ -17,9 +21,7 @@
     "height": 500
   },
   "license": "ISC",
-  "dependencies": {
-    "nw": "^0.26.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^4.4.1",
     "eslint-config-standard": "^10.2.1",
@@ -27,7 +29,9 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "nw": "^0.26.0-sdk",
+    "nw-dev": "^3.0.1"
   },
   "bugs": {
     "url": "https://github.com/mubaidr/nw.js-app-template/issues",
