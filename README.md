@@ -1,5 +1,7 @@
 # nw.js-app-template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mubaidr/nw.js-app-template.svg)](https://greenkeeper.io/)
+
 A simple template for developing application using NW.js
 
 ## Setup
